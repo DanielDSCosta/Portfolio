@@ -1,10 +1,10 @@
 [
     {
       "id": "0",
-      "screenShot": "",
+      "image": "https://raw.githubusercontent.com/DanielDSCosta/Portfolio/main/src/assets/logos/argent-bank.webp",
       "title": "Argent Bank",
       "github": "https://github.com/DanielDSCosta/argentb",
-      "rendu": "",
+      "largeImage": "https://github.com/DanielDSCosta/Portfolio/raw/main/src/assets/rendu/argent-bank.webp",
       "tags": [ 
         "Sass",
         "React", 
@@ -18,10 +18,10 @@
     },
     {
       "id": "1",
-      "screenShot": "",
+      "image": "https://raw.githubusercontent.com/DanielDSCosta/Portfolio/main/src/assets/logos/kasa.webp",
       "title": "Kasa",
       "github": "https://github.com/DanielDSCosta/kasa",
-      "rendu": "",
+      "largeImage": "https://github.com/DanielDSCosta/Portfolio/raw/main/src/assets/rendu/kasa.webp",
       "tags": [
         "HTML5",
         "CSS3", 
@@ -39,10 +39,10 @@
     },
     {
       "id": "2",
-      "screenShot": "",
+      "image": "https://raw.githubusercontent.com/DanielDSCosta/Portfolio/main/src/assets/logos/sophie-bluel.webp",
       "title": "Sophie Bluel",
       "github": "https://github.com/DanielDSCosta/Portfolio-architecte-sophie-bluel",
-      "rendu": "",
+      "largeImage": "https://github.com/DanielDSCosta/Portfolio/raw/main/src/assets/rendu/sophie-bluel.webp",
       "tags": [ 
         "HTML5", 
         "CSS3", 
@@ -57,10 +57,10 @@
     },
     {
       "id": "3",
-      "screenShot": "",
+      "image": "https://raw.githubusercontent.com/DanielDSCosta/Portfolio/main/src/assets/logos/oh-my-food.webp",
       "title": "Oh My Food",
       "github": "https://github.com/DanielDSCosta/Ohmyfood",
-      "rendu": "",
+      "largeImage": "https://raw.githubusercontent.com/DanielDSCosta/Portfolio/main/src/assets/rendu/oh-my-food.webp",
       "tags": [ 
         "HTML5", 
         "CSS3",
@@ -71,9 +71,9 @@
     },
     {
       "id": "4",
-      "screenShot": "",
+      "image": "https://raw.githubusercontent.com/DanielDSCosta/Portfolio/main/src/assets/logos/nina-carducci.webp",
       "title": "Nina Carducci",
-      "rendu": "",
+      "largeImage": "https://raw.githubusercontent.com/DanielDSCosta/Portfolio/main/src/assets/rendu/nina-carducci.webp",
       "github": "https://github.com/DanielDSCosta/P9_NinaCarducci",
       "tags": [ 
         "JavaScript", 
@@ -87,9 +87,9 @@
     },
     {
       "id": "5",
-      "screenShot": "",
+      "image": "https://raw.githubusercontent.com/DanielDSCosta/Portfolio/main/src/assets/logos/742events.webp",
       "title": "742 Events",
-      "rendu": "",
+      "largeImage": "https://raw.githubusercontent.com/DanielDSCosta/Portfolio/main/src/assets/rendu/742events.webp",
       "github": "https://github.com/DanielDSCosta/724_Events",
       "tags": [ 
         "Jest", 
