@@ -1,4 +1,4 @@
-export default Home;
+
 
 const Home = () => (
     <div>
@@ -6,3 +6,4 @@ const Home = () => (
       <p>Bienvenue sur mon portfolio !</p>
     </div>
   );
+  export default Home;

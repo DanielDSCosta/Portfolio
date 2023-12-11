@@ -1,4 +1,4 @@
-export default Contact;
+
 
 const Contact = () => (
     <div>
@@ -6,3 +6,4 @@ const Contact = () => (
       <p>Ceci est mon portfolio. Ajoutez ici vos projets et réalisations.</p>
     </div>
   );
+  export default Contact;
