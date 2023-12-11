@@ -6,6 +6,7 @@ import Contact from './pages/contact';
 import React from 'react';
 import { BrowserRouter as Router, Route, Link, Routes } from 'react-router-dom';
 import Header from './components/header';
+import Footer from './components/footer';
 
 
 
@@ -25,6 +26,8 @@ const App = () => (
         <Route path="/about" Component={About} />
         <Route path="/contact" Component={Contact} />
       </Routes>
+
+      <Footer/>
     </div>
   </Router>
  
