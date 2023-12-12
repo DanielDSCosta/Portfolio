@@ -272,7 +272,7 @@ body{
 
 .form-input,
 .form-textarea {
-  width: 10%;
+  width: 80%;
   flex: 2;
   font-weight: bold;
   font-size: 1.2em;
@@ -283,14 +283,19 @@ body{
 }
 
 .form-submit {
-  width: 10%; 
+  width: auto; 
   margin: 0 auto;
   font-weight: bold;
   font-size: 1.2em;
   -webkit-appearance: none;
   appearance: none;
   background-color: white;
+  color:black;
+  padding: 10 30px;
+  border: none;
+  box-shadow:2px 2px 4px rgba(0, 0, 0, 0.5) ;
 }
+
 
 /* Media Queries */
 
