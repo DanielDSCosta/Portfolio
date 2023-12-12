@@ -14,25 +14,22 @@ import About from './pages/about';
 
 
 const App = () => (
-
   <Router>
-    <div class="header">
-      <Header/>
+    <div className="App">
+      <div className="header">
+        <Header/>
       </div>
-      <div>
-
-
-      <Routes>
-        <Route exact path="/" Component={Home} />
-        <Route path="/project" Component={Project} />
-        <Route path="/about" Component={About} />
-        <Route path="/contact" Component={Contact} />
-      </Routes>
-
+      <div className="content">
+        <Routes>
+          <Route exact path="/" Component={Home} />
+          <Route path="/project" Component={Project} />
+          <Route path="/about" Component={About} />
+          <Route path="/contact" Component={Contact} />
+        </Routes>
+      </div>
       <Footer/>
     </div>
   </Router>
- 
 );
 
 export default App;

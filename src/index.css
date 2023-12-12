@@ -15,6 +15,15 @@ body{
   margin: 0;
 }
 
+.content {
+  flex: 1 0 auto;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
 /* Nav Header */
 
 .nav {
@@ -64,10 +73,9 @@ body{
   text-align: center;
   padding: 20px;
   margin-top: auto;
-  position: fixed; 
   bottom: 0; 
   width: 100%; 
-  flex-shrink: 0;;
+  flex-shrink: 0;
 }
 
 .social-icon {
@@ -105,6 +113,10 @@ body{
 .about {
   text-align: center;
   color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
 }
 
 .about-title {
@@ -115,7 +127,7 @@ body{
   margin-bottom: 0%;
 }
 
-/* About page - Card */
+/* Project - Card */
 
 .projects-title {
   font-size: 3em;
@@ -126,7 +138,6 @@ body{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  margin-bottom:15%;
 }
 
 .card {
@@ -220,4 +231,60 @@ body{
 
 .modal-link {
   color: white;
+}
+
+/* Contact Page */
+
+.form {
+  background-color: grey;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  margin:1%;
+  width: 60%;
+}
+
+.form-group {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.form-label {
+  flex: 1;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+.form-input,
+.form-textarea {
+  width: 10%;
+  flex: 2;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+.form-textarea {
+  height: 150px; /* Ajustez la hauteur ici */
+}
+
+.form-submit {
+  width: 10%; 
+  margin: 0 auto;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+/* Media Queries */
+
+@media (max-width: 768px) {
+  .form {
+    width: 90%; /* Ajustez la largeur ici */
+  }
+
+  .form-submit {
+    width: 70%; /* Ajustez la largeur ici */
+  }
 }
