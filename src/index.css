@@ -147,6 +147,7 @@ body{
 
 .card-image {
   width: 60%;
+  border-radius: 10px;
 }
 
 .card-description {
