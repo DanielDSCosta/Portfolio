@@ -1,12 +1,9 @@
 import React from 'react';
 import Home from './home';
 
+
 const Contact = () => {
-  const handleSubmit = (event) => {
-    event.preventDefault();
-    alert('Votre message a été envoyé !');
-    window.location.href = {Home} + "/";
-  };
+
   return (
   <div className="about">
     <h2 className="about-title">Contactez moi</h2>
@@ -24,10 +21,11 @@ const Contact = () => {
         <textarea className="form-textarea" id="body" name="body" required />
       </div>
       <input className="form-submit" type="submit" value="Envoyer" />
-      <input type="hidden" name="_next" value="/"></input>
+      <input type="hidden" name="_next" value={Home}></input>
+      <input type="hidden" name="_captcha" value="false"></input>
     </form>
   </div>
 );
-  };
+  }
 
 export default Contact;
