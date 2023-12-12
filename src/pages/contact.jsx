@@ -11,13 +11,13 @@ const Contact = () => {
     <h2 className="about-title">Contactez-moi</h2>
     <form className="form" action="https://formsubmit.co/daniel.dasilva.gsi@gmail.com" method="POST" enctype="multipart/form-data" onSubmit={handleSubmit}>
       <div className="form-group">
-        <input className="form-input" type="email" id="email" name="email" required placeholder="Votre Email:" />
+        <input className="form-input" type="email" id="email" name="email" required placeholder="Email" />
       </div>
       <div className="form-group">
-        <input className="form-input" type="text" id="subject" name="subject" required placeholder="Objet:" />
+        <input className="form-input" type="text" id="subject" name="subject" required placeholder="Objet" />
       </div>
       <div className="form-group">
-        <textarea className="form-textarea" id="body" name="body" required placeholder="Message:" />
+        <textarea className="form-textarea" id="body" name="body" required placeholder="Message" />
       </div>
       <input className="form-submit" type="submit" value="Envoyer" />
       <input type="hidden" name="_next" value="https://danieldasilvacosta.netlify.app/" ></input>
