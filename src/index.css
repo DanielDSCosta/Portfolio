@@ -30,20 +30,23 @@ body{
   width: 100%;
   text-align: center;
   background-color: black;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
 }
 
 .nav li{
     list-style: none;
-  display: inline;
+  display: inline-block;
   text-decoration: none;
   font-size: 115%;
   font-style: oblique;
-  
+  flex: 1 1 auto;
 }
 
 .nav a{
   display: inline-block;
-  margin: 0 30px;
   text-decoration: none;
   color: white;
 }
@@ -121,7 +124,7 @@ body{
 
 .about-title {
   font-weight: bold;
-  font-size: 5em; 
+  font-size: 2.5em; 
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   margin-top: 0%;
   margin-bottom: 0%;
@@ -174,6 +177,9 @@ body{
   .card {
     width: 50%;
   }
+  .about-title {
+    font-size: 3em;
+  }
 }
 
 @media (min-width: 900px) {
@@ -181,12 +187,18 @@ body{
   .card {
     width: 33%;
   }
+  .about-title {
+    font-size: 3.5em;
+  }
 }
 
 @media (min-width: 1200px) {
   /* Sur les écrans d'au moins 1200px de large, les cartes prendront 25% de la largeur (4 par ligne) */
   .card {
     width: 25%;
+  }  
+  .about-title {
+    font-size: 5em;
   }
 }
 
@@ -267,7 +279,7 @@ body{
 }
 
 .form-textarea {
-  height: 150px; /* Ajustez la hauteur ici */
+  height: 150px; 
 }
 
 .form-submit {
@@ -275,16 +287,18 @@ body{
   margin: 0 auto;
   font-weight: bold;
   font-size: 1.2em;
+  -webkit-appearance: none;
+  appearance: none;
 }
 
 /* Media Queries */
 
 @media (max-width: 768px) {
   .form {
-    width: 90%; /* Ajustez la largeur ici */
+    width: 90%; 
   }
 
   .form-submit {
-    width: 70%; /* Ajustez la largeur ici */
+    width: 70%; 
   }
 }

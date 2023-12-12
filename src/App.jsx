@@ -9,10 +9,6 @@ import Header from './components/header';
 import Footer from './components/footer';
 import About from './pages/about';
 
-
-
-
-
 const App = () => (
   <Router>
     <div className="App">
@@ -21,10 +17,11 @@ const App = () => (
       </div>
       <div className="content">
         <Routes>
-          <Route exact path="/" Component={Home} />
-          <Route path="/project" Component={Project} />
-          <Route path="/about" Component={About} />
-          <Route path="/contact" Component={Contact} />
+          <Route exact path="/" element={<Home />} />
+          <Route path="/project" element={<Project />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="*" element={<Home />} /> 
         </Routes>
       </div>
       <Footer/>
