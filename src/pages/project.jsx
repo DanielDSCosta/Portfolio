@@ -2,7 +2,7 @@ import React, {useState, useEffect} from 'react';
 import projects from '../data/projects.json';
 
 
-const About = () => {
+const Project = () => {
   const [selectedImage, setSelectedImage] = useState(null);
 
   useEffect(() => {
@@ -17,7 +17,6 @@ const About = () => {
         setSelectedImage(null);
       }
     };
-    
 
     window.addEventListener('keydown', handleKeyDown);
     return () => window.removeEventListener('keydown', handleKeyDown);
@@ -25,13 +24,7 @@ const About = () => {
 
   return (
     <div className="about">
-      <h1 className="about-title">About Me</h1>
-      <p className="about-description">
-      Line 1. <br/>
-        Line 2. <br/>
-       Line 3. <br/>
-      </p>
-      <h2 className="projects-title">Mes Projets</h2>
+      <h1 className="about-title">Mes Projets</h1>
       <div className="card-container">
         {projects.sort((a, b) => a.id - b.id).map((item, index) => (
           <div className="card" key={index} onClick={() => setSelectedImage(item)}>
@@ -54,4 +47,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default Project;

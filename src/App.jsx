@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import './App.css'
 import Home from './pages/home';
-import About from './pages/about';
+import Project from './pages/project';
 import Contact from './pages/contact';
 import React from 'react';
 import { BrowserRouter as Router, Route, Link, Routes } from 'react-router-dom';
@@ -23,7 +23,7 @@ const App = () => (
 
       <Routes>
         <Route exact path="/" Component={Home} />
-        <Route path="/about" Component={About} />
+        <Route path="/project" Component={Project} />
         <Route path="/contact" Component={Contact} />
       </Routes>
 

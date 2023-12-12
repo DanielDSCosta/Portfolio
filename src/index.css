@@ -130,18 +130,19 @@ body{
 }
 
 .card {
-  width: 100%;
-  padding: 10px;;
+  width: 70%;
+  padding: 5px;
   margin: 20px;
-  transition: transform .2s;
-  border: 1px solid #ccc;
+  transition: transform 0.3s ease;
+  transform-origin: center center;
+  border: 0.5px solid #ccc;
   border-radius: 10px;
   flex: 1 0 auto;
  
 }
 
 .card:hover {
-  transform: scale(1.1);
+  transform: scale(1.05);
 }
 
 .card-image {
@@ -194,7 +195,8 @@ body{
 }
 
 .modal-image {
-  width: 50%;
+  width: 60%;
+  object-fit: contain;
 }
 
 .modal-description, .modal-title {
@@ -211,7 +213,8 @@ body{
   background-color: grey;
   padding: 20px;
   border-radius: 10px;
-  color:white
+  color:white;
+  width: 80%;
 }
 
 .modal-link {
