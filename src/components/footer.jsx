@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaGithub, FaTwitter, FaLinkedin } from 'react-icons/fa';
+import { FaGithub, FaTwitter, FaLinkedin, FaGoogle } from 'react-icons/fa';
 
 const Footer = () => (
   <div className="footer">
@@ -11,6 +11,9 @@ const Footer = () => (
     </a>
     <a href="https://www.linkedin.com/in/daniel-da-silva-costa-b0b0a3171/" target="_blank" rel="noreferrer" className="social-icon">
       <FaLinkedin size={40} />
+    </a>
+    <a href="mailto:daniel.dasilva.gsi@gmail.com" className="social-icon">
+      <FaGoogle size={40} />
     </a>
   </div>
 );
