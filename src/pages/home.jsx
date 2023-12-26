@@ -8,7 +8,7 @@ const Home = () => (
       Daniel
     </h1>
     <p className="home-description">
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris interdum fringilla augue vitae tincidunt. Curabitur vitae tortor id libero.
+    Développeur web junior
     </p>
   </div>
 );
