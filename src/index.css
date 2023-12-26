@@ -234,7 +234,7 @@ body{
   }
 }
 
-/* About page - Modal */
+/* Project page - Modal */
 
 .modal {
   position: fixed;
@@ -246,7 +246,6 @@ body{
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background-color: rgba(0, 0, 0, 0.5);
   backdrop-filter: blur(5px);
 }
 
@@ -256,7 +255,7 @@ body{
 }
 
 .modal-description, .modal-title {
-  color: white;
+  color: rgba(212, 175, 55);
   text-align: center;
 }
 
@@ -266,21 +265,19 @@ body{
 }
 
 .modal-content {
-  background-color: grey;
   padding: 20px;
   border-radius: 10px;
-  color:white;
+  color: rgba(212, 175, 55);
   width: 80%;
 }
 
 .modal-link {
-  color: white;
+  color: rgba(212, 175, 55);
 }
 
 /* Contact Page */
 
 .form {
-  background-color: grey;
   padding: 20px;
   display: flex;
   flex-direction: column;
