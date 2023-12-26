@@ -17,12 +17,12 @@ const About = () => {
       </section>
       <section className="section">
         <h2 className="section-title">Expérience</h2>
-        <p class="little-section">Armée de l’air</p>
+        <p className="little-section">Armée de l’air</p>
         <p>-2018: Soldat en formation militaire pour l’armée de l’air pour être Commando Parachutiste</p>
-        <p class="little-section">Développement web</p>
+        <p className="little-section">Développement web</p>
         <p>-Pendant mes années d'études: Divers stage d'apprentissage  </p>
         <p>Oppenclassroom: Divers projets à réaliser</p>
-        <p class="little-section">Maçonnerie (Maçon)</p>
+        <p className="little-section">Maçonnerie (Maçon)</p>
         <p>-05/06/2019 au 28/02/2023: CDI dans une entreprise de maçonnerie
         </p>
       </section>
