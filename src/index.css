@@ -140,6 +140,10 @@ body{
 
 .section {
   margin-bottom: 20px;
+  background: rgba(0, 0, 0, 0.7);
+  margin: 20px;
+  padding: 20px;
+  border-radius: 10px;
 }
 
 .little-section{
