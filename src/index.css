@@ -2,7 +2,7 @@
 
 *{
   box-sizing: border-box;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Roboto", sans-serif;
 }
 
 body{
@@ -28,26 +28,26 @@ body{
 /* Nav Header */
 
 .nav {
-  width: 100%;
-  text-align: center;
   background-color: black;
-  display: flex;
-  flex-wrap: nowrap;
+  display: flex; 
   justify-content: center;
-  align-items: center;
 }
 
 .nav li{
     list-style: none;
-  display: inline-block;
   text-decoration: none;
-  font-size: 115%;
+  font-size: 150%;
   font-style: oblique;
   flex: 1 1 auto;
+  display: inline-block;
+}
+
+.nav-item {
+  margin: 0 10px; /* Ajustez cette valeur en fonction de vos besoins */
 }
 
 .nav a{
-  display: inline-block;
+
   text-decoration: none;
   color: white;
 }
@@ -67,6 +67,7 @@ body{
   text-align: center;
   padding: 1%;
   width: 100%;
+  align-content: center;
 }
 
 /* Footer */
@@ -109,7 +110,7 @@ body{
 .home-description {
   max-width: 600px;
   margin: 0 auto;
-  font-size: 1.2em; 
+  font-size: 3em; 
 }
 
 /* About Page */
@@ -251,6 +252,7 @@ body{
   align-items: center;
   flex-direction: column;
   backdrop-filter: blur(5px);
+  
 }
 
 .modal-image {
